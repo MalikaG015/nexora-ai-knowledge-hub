@@ -1,0 +1,21 @@
+# Maven build output
+**/target/
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Secrets
+.env
+.env.*
+!.env.example
+**/application-local.properties
+**/application-secrets.properties

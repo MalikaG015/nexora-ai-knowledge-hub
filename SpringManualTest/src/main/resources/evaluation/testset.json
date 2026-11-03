@@ -1,0 +1,294 @@
+[
+  {
+    "id": "Q01",
+    "question": "What does error SS-402 mean?",
+    "type": "single",
+    "expectedChunkIds": ["7457ee14-a035-3611-8a81-2d2908ba5e46"],
+    "expectedSource": "error-code-reference.md",
+    "expectedHeadingContains": "SS-402",
+    "answerable": true
+  },
+  {
+    "id": "Q02",
+    "question": "What are the possible causes of SS-402?",
+    "type": "single",
+    "expectedChunkIds": ["b277ec5a-66cd-3543-8d5c-21c6a46ba17e"],
+    "expectedSource": "error-code-reference.md",
+    "expectedHeadingContains": "SS-402",
+    "answerable": true
+  },
+  {
+    "id": "Q03",
+    "question": "How should I troubleshoot SS-402?",
+    "type": "single",
+    "expectedChunkIds": ["84e65d87-2f1e-394d-8692-a3200e4b9f49"],
+    "expectedSource": "error-code-reference.md",
+    "expectedHeadingContains": "SS-402",
+    "answerable": true
+  },
+  {
+    "id": "Q04",
+    "question": "What does error SS-409 mean?",
+    "type": "single",
+    "expectedChunkIds": ["f8058bfe-a67d-3b75-816d-f1e22da85611"],
+    "expectedSource": "error-code-reference.md",
+    "expectedHeadingContains": "SS-409",
+    "answerable": true
+  },
+  {
+    "id": "Q05",
+    "question": "What can cause SS-409?",
+    "type": "single",
+    "expectedChunkIds": ["77ba4066-bd8c-35ee-8b5b-dae886c63d3c"],
+    "expectedSource": "error-code-reference.md",
+    "expectedHeadingContains": "SS-409",
+    "answerable": true
+  },
+  {
+    "id": "Q06",
+    "question": "What does error SS-503 mean?",
+    "type": "single",
+    "expectedChunkIds": ["24cec74c-4ae8-3fe1-ab12-65668a273540"],
+    "expectedSource": "error-code-reference.md",
+    "expectedHeadingContains": "SS-503",
+    "answerable": true
+  },
+  {
+    "id": "Q07",
+    "question": "How can I troubleshoot a webhook that did not fire?",
+    "type": "single",
+    "expectedChunkIds": ["95a887d6-8e4b-30cd-a7e5-7a4a3cdc2389"],
+    "expectedSource": "self-debug-checklists.md",
+    "expectedHeadingContains": "webhook",
+    "answerable": true
+  },
+  {
+    "id": "Q08",
+    "question": "What should I check when a label PDF is blank?",
+    "type": "single",
+    "expectedChunkIds": ["84105a69-a955-347a-ba19-fbbd520f6c03"],
+    "expectedSource": "self-debug-checklists.md",
+    "expectedHeadingContains": "label",
+    "answerable": true
+  },
+  {
+    "id": "Q09",
+    "question": "What should I check if a tracking number is missing?",
+    "type": "single",
+    "expectedChunkIds": ["dd861199-acd4-3fff-abee-ddf53fe20edf"],
+    "expectedSource": "self-debug-checklists.md",
+    "expectedHeadingContains": "tracking",
+    "answerable": true
+  },
+  {
+    "id": "Q10",
+    "question": "What should I check when an SDK has a dependency conflict?",
+    "type": "single",
+    "expectedChunkIds": ["04afc728-26b6-3870-953b-04882d73ddfc"],
+    "expectedSource": "known-software-issues.md",
+    "expectedHeadingContains": "SDK",
+    "answerable": true
+  },
+  {
+    "id": "Q11",
+    "question": "What is the difference between sandbox and live keys?",
+    "type": "single",
+    "expectedChunkIds": ["f3b49faa-60fb-3597-89bc-e446a2f644bc"],
+    "expectedSource": "known-software-issues.md",
+    "expectedHeadingContains": "key",
+    "answerable": true
+  },
+  {
+    "id": "Q12",
+    "question": "What should I investigate if timestamps show the wrong time?",
+    "type": "single",
+    "expectedChunkIds": ["dc804e64-898c-383f-af7c-37ccee86d402"],
+    "expectedSource": "known-software-issues.md",
+    "expectedHeadingContains": "timezone",
+    "answerable": true
+  },
+  {
+    "id": "Q13",
+    "question": "Where can I find information about API rate limits?",
+    "type": "single",
+    "expectedChunkIds": ["29b08be6-1354-31e6-b992-29ac6f77a7ea"],
+    "expectedSource": "accounts-billing-rate-limits.md",
+    "expectedHeadingContains": "rate",
+    "answerable": true
+  },
+  {
+    "id": "Q14",
+    "question": "Where is billing information documented?",
+    "type": "single",
+    "expectedChunkIds": ["19c15d35-c7d7-3449-b61d-36f1830d4138"],
+    "expectedSource": "accounts-billing-rate-limits.md",
+    "expectedHeadingContains": "billing",
+    "answerable": true
+  },
+  {
+    "id": "Q15",
+    "question": "Where can I find account-related guidance?",
+    "type": "single",
+    "expectedChunkIds": ["28ef8dc5-f2ff-3e95-98be-02ede0fffc50"],
+    "expectedSource": "accounts-billing-rate-limits.md",
+    "expectedHeadingContains": "account",
+    "answerable": true
+  },
+  {
+    "id": "Q16",
+    "question": "Explain SS-402 and give its recommended troubleshooting steps.",
+    "type": "multi",
+    "expectedChunkIds": [
+      "7457ee14-a035-3611-8a81-2d2908ba5e46",
+      "84e65d87-2f1e-394d-8692-a3200e4b9f49"
+    ],
+    "expectedSources": ["error-code-reference.md"],
+    "expectedHeadingContains": "SS-402",
+    "answerable": true
+  },
+  {
+    "id": "Q17",
+    "question": "How do SS-402 and SS-409 differ?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "7457ee14-a035-3611-8a81-2d2908ba5e46",
+      "f8058bfe-a67d-3b75-816d-f1e22da85611"
+    ],
+    "expectedSources": ["error-code-reference.md"],
+    "expectedHeadingContains": ["SS-402", "SS-409"],
+    "answerable": true
+  },
+  {
+    "id": "Q18",
+    "question": "What should I investigate when a webhook does not fire, and what should I inspect in the logs?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "95a887d6-8e4b-30cd-a7e5-7a4a3cdc2389",
+      "fa6a2531-2718-3fab-a1a4-f679dc1b72e2"
+    ],
+    "expectedSources": ["self-debug-checklists.md"],
+    "expectedHeadingContains": "webhook",
+    "answerable": true
+  },
+  {
+    "id": "Q19",
+    "question": "How can I troubleshoot a blank label PDF from the available checklist?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "84105a69-a955-347a-ba19-fbbd520f6c03",
+      "6497c126-f6c7-333b-a6e2-b61621eb3fa2"
+    ],
+    "expectedSources": ["self-debug-checklists.md"],
+    "expectedHeadingContains": "label",
+    "answerable": true
+  },
+  {
+    "id": "Q20",
+    "question": "What should I check when tracking numbers are missing, and how does the troubleshooting checklist guide me?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "dd861199-acd4-3fff-abee-ddf53fe20edf",
+      "df6e1f7d-a34e-3dc8-afd5-cdac77182dc4"
+    ],
+    "expectedSources": ["self-debug-checklists.md"],
+    "expectedHeadingContains": "tracking",
+    "answerable": true
+  },
+  {
+    "id": "Q21",
+    "question": "How should I investigate an SDK conflict and a sandbox/live key mismatch?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "04afc728-26b6-3870-953b-04882d73ddfc",
+      "c2b30d27-0650-3e8c-ba01-49264a3f3cb1"
+    ],
+    "expectedSources": ["known-software-issues.md"],
+    "expectedHeadingContains": ["SDK", "key"],
+    "answerable": true
+  },
+  {
+    "id": "Q22",
+    "question": "What should I know about billing and rate limits?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "78adc883-1417-3fca-99ae-9dc7b7f70dfb",
+      "4d657b9b-3813-34fd-9284-028dad0bdaa6"
+    ],
+    "expectedSources": ["accounts-billing-rate-limits.md"],
+    "expectedHeadingContains": ["billing", "rate"],
+    "answerable": true
+  },
+  {
+    "id": "Q23",
+    "question": "How do timezone-related issues affect troubleshooting, and what should I check?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "d9064c49-21a9-3ccb-8590-5debd473e805",
+      "dc804e64-898c-383f-af7c-37ccee86d402"
+    ],
+    "expectedSources": ["known-software-issues.md"],
+    "expectedHeadingContains": "timezone",
+    "answerable": true
+  },
+  {
+    "id": "Q24",
+    "question": "What steps should I take when SS-503 occurs, based on the error reference and relevant troubleshooting guidance?",
+    "type": "multi",
+    "expectedChunkIds": [
+      "a4e81fcf-be3f-36a6-93a5-317a29edbce6",
+      "f9502f4f-fe82-3d31-9135-02baad7d5cbb"
+    ],
+    "expectedSources": ["error-code-reference.md"],
+    "expectedHeadingContains": "SS-503",
+    "answerable": true
+  },
+  {
+    "id": "Q25",
+    "question": "What is the private home address of SnapShip's CEO?",
+    "type": "unanswerable",
+    "expectedChunkIds": [],
+    "answerable": false
+  },
+  {
+    "id": "Q26",
+    "question": "What is SnapShip's CEO's personal phone number?",
+    "type": "unanswerable",
+    "expectedChunkIds": [],
+    "answerable": false
+  },
+  {
+    "id": "Q27",
+    "question": "What is SnapShip's exact annual revenue?",
+    "type": "unanswerable",
+    "expectedChunkIds": [],
+    "answerable": false
+  },
+  {
+    "id": "Q28",
+    "question": "Which employee wrote the SS-402 error handler?",
+    "type": "unanswerable",
+    "expectedChunkIds": [],
+    "answerable": false
+  },
+  {
+    "id": "Q29",
+    "question": "What is the exact date SnapShip was founded?",
+    "type": "unanswerable",
+    "expectedChunkIds": [],
+    "answerable": false
+  },
+  {
+    "id": "Q30",
+    "question": "What is SnapShip's office address?",
+    "type": "unanswerable",
+    "expectedChunkIds": [],
+    "answerable": false
+  },
+  {
+    "id": "Q31",
+    "question": "What is SnapShip's bank account number?",
+    "type": "unanswerable",
+    "expectedChunkIds": [],
+    "answerable": false
+  }
+]
